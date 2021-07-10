@@ -1,0 +1,135 @@
+
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display', serif;
+
+.text-center{
+    font-weight: bold; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    color: white;
+  }
+  
+  .centered-two{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    color: white;
+
+  }
+  
+
+   .heading-image-text{
+       color: white;
+      
+       text-align: center;
+       justify-content: center;
+      
+      
+   }
+
+   
+  .card__img {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 62.5%;
+   
+  }
+.nav-link{
+    color: black;
+    font-weight: bold; 
+}
+
+.contact-section{
+    background-color: black;
+    color: white;
+}
+.info-container{
+text-align: center;
+}
+.info-container h5{
+    color: rgba(159, 159, 236, 0.712);
+}
+
+.about-section{
+    background-color: rgb(102, 201, 247);
+    text-align: center;
+    color: white;
+}
+.each-div{
+    border: 5px solid white;
+    height: 40vh;
+    width: 10rem;
+}
+.img-div{
+    border: none;
+}
+.black-div{
+    background-color: rgba(37, 27, 27, 0.822);
+}
+.card img{
+    text-align: center;
+    border-radius: 10px;
+}
+.blog-header-section{
+    text-align: center;
+}
+.blog-card{
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 10px 10px 8px #888888;
+    
+}
+.card{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.font-icon{
+    color: rgb(58, 196, 214);
+    
+}
+.footer-section{
+    background-color: rgba(7, 7, 7, 0.931);
+    color: white;
+}
+.copyright-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.round-icon-section{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(240, 233, 233);
+   
+}
+.icon{
+    border-radius: 50%;
+    background-color: rgb(0, 162, 255);
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 8px #888888;
+}
+.round-card{
+    border: none;
+}
+.security-section{
+    background-color:rgb(240, 233, 233);
+    
+}
+.security-card-body-section{
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 10px;
+}
