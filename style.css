@@ -6,6 +6,23 @@ font-family: 'Playfair Display', serif;
     font-weight: bold; 
 }
 
+
+.background-image div{
+    background-image: url('images/banner.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: absolute;
+    
+}
+
+
+
+
+
+
+
 .centered {
     position: absolute;
     top: 50%;
@@ -19,6 +36,11 @@ font-family: 'Playfair Display', serif;
     color: white;
     justify-content: center;
     text-align: center;
+  }
+
+  .centered p{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
   }
   
   /* .centered-two{
@@ -56,6 +78,7 @@ font-family: 'Playfair Display', serif;
 .contact-section{
     background-color: black;
     color: white;
+
 }
 .info-container{
 text-align: center;
@@ -68,11 +91,17 @@ text-align: center;
     background-color: rgb(102, 201, 247);
     text-align: center;
     color: white;
+    
+    box-shadow: 10px 10px 8px #888888;
+    
+    
 }
+
 .each-div{
     border: 5px solid white;
     height: 40vh;
     width: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .img-div{
     border: none;
